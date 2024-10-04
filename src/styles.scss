@@ -1,0 +1,27 @@
+:root{
+    --bg-primary:#e5ecff;
+    --medium-purple:#7166ff;
+    --text-primary:#555555;
+    --text-secondary: #524f73;
+    --text-tertiary: #333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-primary);
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+a{
+    text-decoration: none;
+}
